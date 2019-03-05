@@ -7,6 +7,7 @@ Just another design system sketch
 
 ### Prerequisiti
 
+install [NVM](https://github.com/creationix/nvm)
 
 ```
 nvm use
