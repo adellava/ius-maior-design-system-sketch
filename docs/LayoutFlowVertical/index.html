@@ -5,7 +5,7 @@
         <meta charset="UTF-8">
         <title>Ius Maior Design System</title>
         <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-        <script src="./bundle.js"></script>
+        <script src="../bundle.js"></script>
         <link rel="stylesheet" href="../style.css">
     </head>
     <body>
@@ -13,6 +13,12 @@
         <h1>Ius Maior Design System</h1>
 
         <h2>Template Flow Vertical</h2>
+
+        <p>
+            Template Flow Vertical è utile per creare layout con barre fisse (header, subheader, footer, etc etc) e un page-flow scrollabile al suo interno.
+            All'interno degli elementi <code>.layout-flow-vertical__bar</code> (solitamente uno o più in testa alla pagina e uno in coda) può contenere ogni tipo di barra per descrivere il contesto ed offrire azioni contestuali.
+            All'interno dell'elemento <code>.layout-flow-vertical__page-flow</code> (solitamente uno) viene inserito il corpo della pagina: testo, form, contenuto <i>scrollabile</i> di ogni genere.
+        </p>
 
         <div style="position: relative; width: 768px; height: 480px;">
             <div class="layout-flow-vertical">
@@ -57,5 +63,13 @@
     &lt;/div&gt;
 &lt;/div&gt;
         </pre>
+
+        <h2>Do & Don't</h2>
+
+        <ul>
+            <li>✅ usalo per dividere lo spazio</li>
+            <li>✅ metti sempre almeno una <code>.layout-flow-vertical__bar</code></li>
+            <li>⚠️ non mettere elementi di navigazione (header, footer, etc etc) dentro <code>.layout-flow-vertical__page-flow</code></li>
+        </ul>
     </body>
 </html>

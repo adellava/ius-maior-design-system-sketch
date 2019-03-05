@@ -1,0 +1,50 @@
+//== Header
+//
+//##
+
+$header1-height: $layout-spacer*2.5;
+$header1-background-color: $ds-primary;
+$header1-color: $ds-light;
+$header1-title-font-size: $h1-info-text-size;
+$header1-title-padding-x: $layout-spacer*0.5;
+$header1-action-padding-x: $layout-spacer*0.5;
+$header1-action-font-size: $h3-info-text-size;
+$header1-title-font-family: Arial, Helvetica, sans-serif;
+
+
+.header {
+    font-family: $header1-title-font-family;
+    width: 100%;
+    height: $header1-height;
+    background-color: $header1-background-color;
+    display: flex;
+    flex-direction: row;
+    color: $header1-color;
+
+    &__title {
+        font-size: $header1-title-font-size;
+        font-weight: 500;
+        line-height: $header1-height;
+        padding: 0 $header1-title-padding-x;
+        display: flex;
+        flex: 1 1 auto;
+
+        &--home {
+            cursor: pointer;
+        }
+    }
+
+    &__action {
+        cursor: pointer;
+        font-size: $header1-action-font-size;
+        display: flex;
+        flex: none;
+        line-height: $header1-height;
+        padding: 0 $header1-action-padding-x;
+
+        &:hover {
+            background-color: rgba(0, 0, 0, 0.2);
+        }
+    }
+    
+}

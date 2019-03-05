@@ -5,13 +5,61 @@
         <meta charset="UTF-8">
         <title>Ius Maior Design System</title>
         <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-        <script src="./bundle.js"></script>
-        <link rel="stylesheet" href="./style.css">
+        <script src="../bundle.js"></script>
+        <link rel="stylesheet" href="../style.css">
     </head>
     <body>
 
         <h1>Ius Maior Design System</h1>
 
+        <h2>Header</h2>
+
+        <p>
+            Header è un pattern che serve ha definire il contesto di una pagina con un titolo e dare la posibilità di fare azioni contestuali al suo interno.
+        </p>
+
+        <div class="header">
+            <div class="header__title">
+                View Title
+            </div>
+            <div class="header__action">
+                action 1
+            </div>
+            <div class="header__action">
+                action 2
+            </div>
+        </div>
+
+        <h2>Snippet</h2>
+        <pre>
+&lt;div class=&quot;header&quot;&gt;
+    &lt;div class=&quot;header__title&quot;&gt;
+        View Title
+    &lt;/div&gt;
+    &lt;div class=&quot;header__action&quot;&gt;
+        action 1
+    &lt;/div&gt;
+    &lt;div class=&quot;header__action&quot;&gt;
+        action 2
+    &lt;/div&gt;
+&lt;/div&gt;
+        </pre>
+
+        <h2>Varianti</h2>
+
+        <div class="header">
+            <div class="header__title">
+                View Title Without Action
+            </div>
+        </div>
+        
+        <h2>Do & Don't</h2>
+
+        <ul>
+            <li>✅ usalo come primo elemento di un template</li>
+            <li>✅ usalo tranquillamente senza azioni se servono</li>
+            <li>⚠️ non usarlo più di una volta nello stesso template</li>
+        </ul>
     </body>
 
 </html>
