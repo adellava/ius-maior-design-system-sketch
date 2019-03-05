@@ -10,7 +10,7 @@ $header1-title-padding-x: $layout-spacer*0.5;
 $header1-action-padding-x: $layout-spacer*0.5;
 $header1-action-font-size: $h3-info-text-size;
 $header1-title-font-family: Arial, Helvetica, sans-serif;
-
+$header1-logo-size: 24px;
 
 .header {
     font-family: $header1-title-font-family;
@@ -21,7 +21,19 @@ $header1-title-font-family: Arial, Helvetica, sans-serif;
     flex-direction: row;
     color: $header1-color;
 
+    &__logo-ius-maior {
+        background-image:url('./header/hearing.svg');
+        background-repeat: no-repeat;
+        background-position: center center;
+        width: $header1-logo-size;
+        height: $header1-logo-size;
+        flex: none;
+        padding: #{($header1-height - $header1-logo-size)/2};
+    }
+
     &__title {
+        
+        
         font-size: $header1-title-font-size;
         font-weight: 500;
         line-height: $header1-height;
@@ -37,7 +49,6 @@ $header1-title-font-family: Arial, Helvetica, sans-serif;
     &__action {
         cursor: pointer;
         font-size: $header1-action-font-size;
-        display: flex;
         flex: none;
         line-height: $header1-height;
         padding: 0 $header1-action-padding-x;

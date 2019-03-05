@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>hearing</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="hearing" stroke="none" stroke-width="1" fill="#FFFFFF" fill-rule="evenodd">
+        <g transform="translate(2.000000, 4.000000)" fill="#FFFFFF" fill-rule="nonzero">
+            <rect id="Rectangle-path" x="0.430107527" y="15.3797468" width="19.5698925" height="1.41772152"></rect>
+            <rect id="Rectangle-path" x="2.15053763" y="5.05063291" width="2.15053763" height="8.91139241"></rect>
+            <rect id="Rectangle-path" x="0.215053763" y="3.63291139" width="19.5698925" height="1.21518987"></rect>
+            <rect id="Rectangle-path" x="5.59139785" y="5.05063291" width="1.93548387" height="8.91139241"></rect>
+            <rect id="Rectangle-path" x="9.03225806" y="5.05063291" width="2.15053763" height="8.91139241"></rect>
+            <rect id="Rectangle-path" x="12.4731183" y="5.05063291" width="2.15053763" height="8.91139241"></rect>
+            <rect id="Rectangle-path" x="15.6989247" y="5.05063291" width="2.15053763" height="8.91139241"></rect>
+            <polyline id="Shape" points="0 3.43037975 20 3.43037975 10 -9.09494702e-13"></polyline>
+            <rect id="Rectangle-path" x="1.07526882" y="14.164557" width="18.2795699" height="1"></rect>
+        </g>
+    </g>
+</svg>
